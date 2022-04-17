@@ -1,0 +1,38 @@
+h3
+{
+    font-size: 35px !important;
+    color: white !important;
+    background-color:brown !important;
+}
+
+button:hover
+{
+    background-color: aqua;
+    color: black;
+    
+}
+
+button
+{
+    font-size: 40px !important;
+    background-color: yellow;
+    border-radius: 40px !important;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border-radius: 40px;
+    border: 8px solid black;
+}
+ 
+@keyframes example
+{
+    from{box-shadow: 20px 20px 30px rgb(2, 14, 254);}
+    to{box-shadow: 20px 20px 30px red;}
+}
+
+
+
+
